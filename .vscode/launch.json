@@ -5,12 +5,32 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Launch User",
+      "request": "launch",
+      "mainClass": "creational.factory.method.User",
+      "projectName": "design-pattern_97bddba3"
+    },
+    {
+      "type": "java",
+      "name": "Launch User",
+      "request": "launch",
+      "mainClass": "creational.factory.User",
+      "projectName": "design-pattern_97bddba3"
+    },
+    {
+      "type": "java",
+      "name": "Launch Singleton",
+      "request": "launch",
+      "mainClass": "Singleton",
+      "projectName": "design-pattern_97bddba3"
+    },
+    {
       "type": "kotlin",
       "request": "launch",
       "name": "Kotlin Launch",
       "projectRoot": "${workspaceFolder}",
-      // "mainClass": "path.to.your.MainClassKt"
-      "mainClass": "Singleton"
+      "mainClass": "${file}"
     }
   ]
 }
