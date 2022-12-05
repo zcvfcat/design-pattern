@@ -2,7 +2,6 @@ package behavioral.strategy;
 
 import behavioral.strategy.weapons.Gun;
 import behavioral.strategy.weapons.Sword;
-import behavioral.strategy.weapons.Weapon;
 
 public class User {
   public static void main(String[] args) {
