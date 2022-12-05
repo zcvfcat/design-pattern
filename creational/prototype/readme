@@ -1,0 +1,11 @@
+# 자바로는 이해안됨 // 2022/12/06
+
+js Object.prototype
+런타임 객체 구조 변경 및 얕은 복사
+
+```js
+''.__proto__.test = 123
+
+const a = String()
+console.log(a.test)
+```
