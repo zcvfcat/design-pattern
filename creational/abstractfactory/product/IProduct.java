@@ -1,4 +1,4 @@
-package creational.factory.method.product;
+package creational.abstractfactory.product;
 
 public interface IProduct {
   public String name = "None";

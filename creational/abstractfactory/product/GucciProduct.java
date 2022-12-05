@@ -1,6 +1,6 @@
-package creational.factory.method.product;
+package creational.abstractfactory.product;
 
-public class AProduct implements IProduct {
+public class GucciProduct implements IProduct {
   public String name = "a";
   public Integer pay = 100;
 
