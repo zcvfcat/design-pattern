@@ -1,7 +1,5 @@
 package creational.abstractfactory;
 
-import java.text.MessageFormat;
-
 import creational.abstractfactory.product.IProduct;
 
 public class User {

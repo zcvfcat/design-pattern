@@ -8,6 +8,27 @@
       "type": "java",
       "name": "Launch User",
       "request": "launch",
+      "mainClass": "behavioral.state.User",
+      "projectName": "design-pattern-java_a9dde6ca"
+    },
+    {
+      "type": "java",
+      "name": "Launch User",
+      "request": "launch",
+      "mainClass": "structural.facade.User",
+      "projectName": "design-pattern-java_a9dde6ca"
+    },
+    {
+      "type": "java",
+      "name": "Launch User",
+      "request": "launch",
+      "mainClass": "structural.decorator.User",
+      "projectName": "design-pattern-java_a9dde6ca"
+    },
+    {
+      "type": "java",
+      "name": "Launch User",
+      "request": "launch",
       "mainClass": "structural.strategy.User",
       "projectName": "design-pattern-java_a9dde6ca"
     },
