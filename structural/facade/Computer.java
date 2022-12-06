@@ -10,9 +10,9 @@ public class Computer {
   final static int SECTOR_SIZE = 0;
 
   public void startComputer() {
-    CPU cpu = new CPU();
-    Memory memory = new Memory();
-    HardDrive hardDrive = new HardDrive();
+    final CPU cpu = new CPU();
+    final Memory memory = new Memory();
+    final HardDrive hardDrive = new HardDrive();
     cpu.freeze();
     memory.load(BOOT_ADDRESS, hardDrive.read(BOOT_SECTOR, SECTOR_SIZE));
     cpu.jump(BOOT_ADDRESS);
