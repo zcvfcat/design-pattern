@@ -1,4 +1,4 @@
-package structural.memento.game;
+package behavioral.memento.game;
 
 public class Memento {
   private final String state;

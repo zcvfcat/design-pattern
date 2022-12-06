@@ -19,10 +19,10 @@ public class TeslaPrototype implements Cloneable {
 
   @Override
   protected Object clone() throws CloneNotSupportedException {
-    Object clone = null;
+    TeslaPrototype clone = null;
 
     try {
-      clone = super.clone();
+      clone = (TeslaPrototype) super.clone();
     } catch (RuntimeException e) {
       e.printStackTrace();
     } catch (CloneNotSupportedException e) {

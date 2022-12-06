@@ -1,4 +1,4 @@
-package structural.memento.game;
+package behavioral.memento.game;
 
 import java.util.ArrayList;
 import java.util.List;
