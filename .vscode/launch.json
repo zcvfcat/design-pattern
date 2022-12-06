@@ -8,6 +8,20 @@
       "type": "java",
       "name": "Launch User",
       "request": "launch",
+      "mainClass": "behavioral.state.User",
+      "projectName": "design-pattern-java_8484be0c"
+    },
+    {
+      "type": "java",
+      "name": "Launch User",
+      "request": "launch",
+      "mainClass": "behavioral.observer.User",
+      "projectName": "design-pattern-java_8484be0c"
+    },
+    {
+      "type": "java",
+      "name": "Launch User",
+      "request": "launch",
       "mainClass": "behavioral.iterator.User",
       "projectName": "design-pattern-java_8484be0c"
     },

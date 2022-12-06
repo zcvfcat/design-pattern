@@ -6,10 +6,10 @@ import behavioral.state.power.Saving;
 
 public class User {
   public static void main(String[] args) {
-    Computer computer = new Computer();
-    On on = new On();
-    Off off = new Off();
-    Saving saving = new Saving();
+    final Computer computer = new Computer();
+    final On on = new On();
+    final Off off = new Off();
+    final Saving saving = new Saving();
 
     computer.setPowerState(on);
     computer.powerPush();
@@ -19,7 +19,7 @@ public class User {
 
     computer.setPowerState(off);
     computer.powerPush();
-    
+
     computer.setPowerState(on);
     computer.powerPush();
   }
