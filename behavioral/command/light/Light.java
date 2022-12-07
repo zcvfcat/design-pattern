@@ -1,4 +1,4 @@
-package behavioral.command.lightswitch;
+package behavioral.command.light;
 
 public class Light {
   public void turnOn() {

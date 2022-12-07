@@ -1,9 +1,9 @@
 package behavioral.command;
 
-import behavioral.command.lightswitch.Light;
-import behavioral.command.lightswitch.Switch;
-import behavioral.command.lightswitch.TurnOffLightCommand;
-import behavioral.command.lightswitch.TurnOnLightCommand;
+import behavioral.command.light.Light;
+import behavioral.command.light.Switch;
+import behavioral.command.light.TurnOffLightCommand;
+import behavioral.command.light.TurnOnLightCommand;
 
 public class User {
   public static void main(String[] args) {
