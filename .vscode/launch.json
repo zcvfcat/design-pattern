@@ -8,6 +8,13 @@
       "type": "java",
       "name": "Launch User",
       "request": "launch",
+      "mainClass": "behavioral.command.User",
+      "projectName": "design-pattern-java_8484be0c"
+    },
+    {
+      "type": "java",
+      "name": "Launch User",
+      "request": "launch",
       "mainClass": "behavioral.chainofresponsiblity.User",
       "projectName": "design-pattern-java_8484be0c"
     },
