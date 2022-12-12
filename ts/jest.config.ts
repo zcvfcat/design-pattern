@@ -5,6 +5,7 @@ const config: Config.InitialOptions = {
   testEnvironment: 'node',
   testMatch: ['**/*.spec.(ts|tsx)'],
   verbose: true,
+  rootDir: 'ts',
 }
 
 export default config
