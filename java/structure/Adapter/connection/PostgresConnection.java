@@ -1,6 +1,6 @@
-package structure.Adapter.connection;
+package structure.adapter.connection;
 
-import structure.Adapter.Adapter;
+import structure.adapter.Adapter;
 
 public class PostgresConnection implements Adapter<Connection> {
 

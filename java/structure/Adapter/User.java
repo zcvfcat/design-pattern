@@ -1,8 +1,8 @@
-package structure.Adapter;
+package structure.adapter;
 
-import structure.Adapter.connection.Connection;
-import structure.Adapter.connection.MysqlConnection;
-import structure.Adapter.connection.PostgresConnection;
+import structure.adapter.connection.Connection;
+import structure.adapter.connection.MysqlConnection;
+import structure.adapter.connection.PostgresConnection;
 
 public class User {
   public static void main(String[] args) {
