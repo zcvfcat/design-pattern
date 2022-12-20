@@ -1,0 +1,58 @@
+<mxfile host="65bd71144e">
+    <diagram id="7ltoPcdg2y4jprUAI1gg" name="Page-1">
+        <mxGraphModel dx="942" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="40" value="Version 1.0&#10;대응 프로그램" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="140" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="1.0 &lt;-&gt; 2.0&#10;변환 어댑터" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="220" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Version 2.0&#10;대응 프로그램" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="140" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="Version 1.0&#10;대응 프로그램" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="140" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="MyClass&#10;Version 2.0" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="310" width="380" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="MyClass&#10;Version 1.0" style="shape=process2;fixedSize=1;size=5;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="310" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="40" target="45">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="390" y="300" as="sourcePoint"/>
+                        <mxPoint x="440" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="439.5" y="180" as="sourcePoint"/>
+                        <mxPoint x="439.5" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="669.5" y="180" as="sourcePoint"/>
+                        <mxPoint x="670" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.816;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="41" target="44">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="679.5" y="190" as="sourcePoint"/>
+                        <mxPoint x="680" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="200" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="구 버전과의 호환성을 위한 Adapter 패턴" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="40" width="400" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

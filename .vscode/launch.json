@@ -4,6 +4,13 @@
       "type": "java",
       "name": "Launch Main",
       "request": "launch",
+      "mainClass": "structure.adapter.Main",
+      "projectName": "design-pattern_97bddba3"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
       "mainClass": "behavior.iterator.Main",
       "projectName": "design-pattern_97bddba3"
     },
