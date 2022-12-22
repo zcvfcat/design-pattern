@@ -7,7 +7,7 @@ import java.lang.reflect.Method;
 import org.junit.Test;
 
 import creation.singleton.base.BaseSingleton;
-import creation.singleton.early.EarlySingleton;
+import creation.singleton.eager.EagerSingleton;
 import creation.singleton.lazy.LazySingleton;
 import creation.singleton.lock.LockSingleton;
 import creation.singleton.sync.SyncSingleton;
@@ -21,7 +21,7 @@ public class SingletonTest {
 
   @Test
   public void eagarSingleton() {
-    assertEquals(EarlySingleton.getInstance(), EarlySingleton.getInstance());
+    assertEquals(EagerSingleton.getInstance(), EagerSingleton.getInstance());
   }
 
   @Test
