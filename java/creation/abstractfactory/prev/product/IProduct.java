@@ -1,4 +1,4 @@
-package creation.abstractfactory.product;
+package creation.abstractfactory.prev.product;
 
 public interface IProduct {
   public String name = "None";

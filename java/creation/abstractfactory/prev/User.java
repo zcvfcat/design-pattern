@@ -1,6 +1,6 @@
-package creation.abstractfactory;
+package creation.abstractfactory.prev;
 
-import creation.abstractfactory.product.IProduct;
+import creation.abstractfactory.prev.product.IProduct;
 
 public class User {
   public static void main(String[] args) {

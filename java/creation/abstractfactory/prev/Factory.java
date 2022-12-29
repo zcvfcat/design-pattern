@@ -1,8 +1,8 @@
-package creation.abstractfactory;
+package creation.abstractfactory.prev;
 
-import creation.abstractfactory.product.GucciProduct;
-import creation.abstractfactory.product.HermesProduct;
-import creation.abstractfactory.product.IProduct;
+import creation.abstractfactory.prev.product.GucciProduct;
+import creation.abstractfactory.prev.product.HermesProduct;
+import creation.abstractfactory.prev.product.IProduct;
 
 public class Factory {
 

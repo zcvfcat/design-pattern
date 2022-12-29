@@ -1,4 +1,4 @@
-package creation.abstractfactory.product;
+package creation.abstractfactory.prev.product;
 
 public class GucciProduct implements IProduct {
   public String name = "a";

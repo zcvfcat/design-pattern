@@ -1,4 +1,4 @@
-package creation.abstractfactory.product;
+package creation.abstractfactory.prev.product;
 
 public class HermesProduct implements IProduct {
   public String name = "B";
