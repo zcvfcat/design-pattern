@@ -1,9 +1,9 @@
-package structure.decorator;
+package structure.decorator.prev;
 
-import structure.decorator.dolls.BlackDoll;
-import structure.decorator.dolls.Doll;
-import structure.decorator.dolls.SmoothDoll;
-import structure.decorator.dolls.WhiteDoll;
+import structure.decorator.prev.dolls.BlackDoll;
+import structure.decorator.prev.dolls.Doll;
+import structure.decorator.prev.dolls.SmoothDoll;
+import structure.decorator.prev.dolls.WhiteDoll;
 
 public class User {
   public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package structure.decorator.dolls;
+package structure.decorator.prev.dolls;
 
 public class BlackDoll extends DecorateDoll {
 

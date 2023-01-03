@@ -1,6 +1,6 @@
-package structure.decorator;
+package structure.decorator.prev;
 
-import structure.decorator.dolls.Doll;
+import structure.decorator.prev.dolls.Doll;
 
 public class RussiaDoll implements Doll {
 

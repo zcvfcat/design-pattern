@@ -1,4 +1,4 @@
-package structure.decorator.dolls;
+package structure.decorator.prev.dolls;
 
 public abstract class DecorateDoll implements Doll {
   Doll doll;
