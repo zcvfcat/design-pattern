@@ -1,4 +1,4 @@
-package behavior.chainofresponsiblity;
+package behavior.chainofresponsiblity.prev;
 
 public class User {
   public static void main(String[] args) {

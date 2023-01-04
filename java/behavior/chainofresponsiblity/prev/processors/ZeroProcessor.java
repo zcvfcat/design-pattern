@@ -1,6 +1,6 @@
-package behavior.chainofresponsiblity.processors;
+package behavior.chainofresponsiblity.prev.processors;
 
-import behavior.chainofresponsiblity.Processor;
+import behavior.chainofresponsiblity.prev.Processor;
 
 public class ZeroProcessor<Integer> extends Processor<Integer> {
   public ZeroProcessor(Processor<Integer> nextProcessor) {

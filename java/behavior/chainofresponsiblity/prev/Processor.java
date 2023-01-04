@@ -1,4 +1,4 @@
-package behavior.chainofresponsiblity;
+package behavior.chainofresponsiblity.prev;
 
 public abstract class Processor<T> {
   private Processor<T> nextProcessor;
