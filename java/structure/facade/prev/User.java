@@ -1,4 +1,4 @@
-package structure.facade;
+package structure.facade.prev;
 
 public class User {
   public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package structure.facade.complexparts;
+package structure.facade.prev.complexparts;
 
 public class Memory {
   public void load(long position, byte[] data) {

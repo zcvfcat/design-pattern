@@ -1,8 +1,8 @@
-package structure.facade;
+package structure.facade.prev;
 
-import structure.facade.complexparts.CPU;
-import structure.facade.complexparts.HardDrive;
-import structure.facade.complexparts.Memory;
+import structure.facade.prev.complexparts.CPU;
+import structure.facade.prev.complexparts.HardDrive;
+import structure.facade.prev.complexparts.Memory;
 
 public class Computer {
   final static Long BOOT_ADDRESS = 0L;

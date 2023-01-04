@@ -1,4 +1,4 @@
-package structure.facade.complexparts;
+package structure.facade.prev.complexparts;
 
 public class CPU {
   public void freeze() {
