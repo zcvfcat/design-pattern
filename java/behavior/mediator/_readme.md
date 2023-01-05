@@ -5,6 +5,12 @@
 
 ## ROLE
 
+### Mediator 조정자, 중재자
+
+### ConcreteMediator 구체적인 조정자, 중재자
+
+### Colleague 동료
+
 ## 사용 이유
 
 ## 관련 패턴
