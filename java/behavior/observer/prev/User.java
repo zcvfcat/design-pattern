@@ -1,6 +1,6 @@
-package behavior.observer;
+package behavior.observer.prev;
 
-import behavior.observer.components.Button;
+import behavior.observer.prev.components.Button;
 
 public class User {
   public static void main(String[] args) {

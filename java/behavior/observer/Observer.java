@@ -1,5 +1,3 @@
-package behavior.observer;
-
 public interface Observer {
-  public void update();
+    public abstract void update(NumberGenerator generator);
 }

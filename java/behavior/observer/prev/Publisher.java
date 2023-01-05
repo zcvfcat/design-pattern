@@ -1,4 +1,4 @@
-package behavior.observer;
+package behavior.observer.prev;
 
 public interface Publisher {
   void add(Observer observer);
