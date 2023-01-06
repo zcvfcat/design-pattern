@@ -1,6 +1,6 @@
-package behavior.command.light;
+package prev.light;
 
-import behavior.command.Command;
+import prev.Command;
 
 public class TurnOnLightCommand implements Command {
   private Light theLight;

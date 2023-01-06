@@ -1,9 +1,9 @@
-package behavior.command;
+package prev;
 
-import behavior.command.light.Light;
-import behavior.command.light.Switch;
-import behavior.command.light.TurnOffLightCommand;
-import behavior.command.light.TurnOnLightCommand;
+import prev.light.Light;
+import prev.light.Switch;
+import prev.light.TurnOffLightCommand;
+import prev.light.TurnOnLightCommand;
 
 public class User {
   public static void main(String[] args) {

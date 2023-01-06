@@ -1,4 +1,4 @@
-package behavior.command.light;
+package prev.light;
 
 public class Light {
   public void turnOn() {
