@@ -1,7 +1,7 @@
-package structure.flyweight;
+package structure.flyweight.prev;
 
-import structure.flyweight.component.FontFactory;
-import structure.flyweight.component.Character;
+import structure.flyweight.prev.component.Character;
+import structure.flyweight.prev.component.FontFactory;
 
 public class User {
 

@@ -1,4 +1,4 @@
-package structure.flyweight.component;
+package structure.flyweight.prev.component;
 
 public class Font {
   final String family;

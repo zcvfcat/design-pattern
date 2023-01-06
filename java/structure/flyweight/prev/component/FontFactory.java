@@ -1,13 +1,13 @@
-package structure.flyweight.component;
+package structure.flyweight.prev.component;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class FontFactory {
-  private Map<String, Font> cache = new HashMap<>();
-	
+	private Map<String, Font> cache = new HashMap<>();
+
 	public Font getFont(String font) {
-		if(cache.containsKey(font)) {
+		if (cache.containsKey(font)) {
 			return cache.get(font);
 		} else {
 			String[] split = font.split(":");

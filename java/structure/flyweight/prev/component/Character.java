@@ -1,9 +1,10 @@
-package structure.flyweight.component;
+package structure.flyweight.prev.component;
 
 public class Character {
-  private char value;
+	private char value;
 	private String color;
 	private Font font;
+
 	public Character(char value, String color, Font font) {
 		this.value = value;
 		this.color = color;

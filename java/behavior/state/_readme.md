@@ -1,5 +1,7 @@
 # State Pattern
 
+- 상태에 따라 사용하는 방법을 표현
+
 ## ROLE
 
 ### State
