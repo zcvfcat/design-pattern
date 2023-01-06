@@ -1,10 +1,10 @@
-package behavior.observer.prev.components;
+package prev.components;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import behavior.observer.Observer;
-import behavior.observer.Publisher;
+import prev.Observer;
+import prev.Publisher;
 
 public class Button implements Publisher {
   final List<Observer> observers = new ArrayList<>();

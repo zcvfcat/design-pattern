@@ -1,4 +1,4 @@
-package behavior.memento.game;
+package behavior.memento.prev.game;
 
 import java.util.ArrayList;
 import java.util.List;

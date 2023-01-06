@@ -1,4 +1,4 @@
-package behavior.state.power;
+package behavior.state.prev.power;
 
 public class Off implements PowerState {
 

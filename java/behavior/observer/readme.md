@@ -1,4 +1,4 @@
-# Singleton Pattern
+# Observer Pattern
 
 - 상태 변화를 기술 할 때 효과적
 

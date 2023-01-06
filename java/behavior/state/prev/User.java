@@ -1,8 +1,8 @@
-package behavior.state;
+package behavior.state.prev;
 
-import behavior.state.power.Off;
-import behavior.state.power.On;
-import behavior.state.power.Saving;
+import behavior.state.prev.power.Off;
+import behavior.state.prev.power.On;
+import behavior.state.prev.power.Saving;
 
 public class User {
   public static void main(String[] args) {

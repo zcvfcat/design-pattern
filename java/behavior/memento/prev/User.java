@@ -1,6 +1,6 @@
-package behavior.memento;
+package behavior.memento.prev;
 
-import behavior.memento.game.Caretaker;
+import behavior.memento.prev.game.Caretaker;
 
 public class User {
   public static void main(String[] args) {

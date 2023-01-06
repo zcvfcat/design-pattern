@@ -1,4 +1,4 @@
-package behavior.memento.game;
+package behavior.memento.prev.game;
 
 public class Originator {
   private String state;

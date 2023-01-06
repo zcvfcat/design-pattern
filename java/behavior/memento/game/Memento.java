@@ -1,13 +1,26 @@
 package behavior.memento.game;
 
-public class Memento {
-  private final String state;
+import java.util.ArrayList;
+import java.util.List;
 
-  public Memento(String state) {
-    this.state = state;
+public class Memento {
+  private int money;
+  private List<String> fruits;
+
+  public Memento(int money) {
+    this.money = money;
+    this.fruits = new ArrayList<>();
   }
 
-  public String getState() {
-    return this.state;
+  public int getMoney() {
+    return this.money;
+  }
+
+  void addFruit(String fruit) {
+    fruits.add(fruit);
+  }
+
+  List<String> getFruits() {
+    return new ArrayList<>(this.fruits);
   }
 }

@@ -1,7 +1,7 @@
-package behavior.state;
+package behavior.state.prev;
 
-import behavior.state.power.Off;
-import behavior.state.power.PowerState;
+import behavior.state.prev.power.Off;
+import behavior.state.prev.power.PowerState;
 
 public class Computer {
   private PowerState powerState;
