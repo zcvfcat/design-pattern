@@ -1,15 +1,16 @@
-package behavior.state.prev;
+package behavior.state;
 
-import behavior.state.prev.power.Off;
-import behavior.state.prev.power.On;
-import behavior.state.prev.power.Saving;
+import behavior.state.power.Off;
+import behavior.state.power.On;
+import behavior.state.power.PowerState;
+import behavior.state.power.Saving;
 
 public class User {
   public static void main(String[] args) {
     final Computer computer = new Computer();
-    final On on = new On();
-    final Off off = new Off();
-    final Saving saving = new Saving();
+    final PowerState on = On.getSingleton();
+    final PowerState off = Off.getSingleton();
+    final PowerState saving = Saving.getSingleton();
 
     computer.setPowerState(on);
     computer.powerPush();

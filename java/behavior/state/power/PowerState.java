@@ -1,4 +1,4 @@
-package behavior.state.prev.power;
+package behavior.state.power;
 
 public interface PowerState {
   public void powerPush();
